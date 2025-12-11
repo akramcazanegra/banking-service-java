@@ -20,7 +20,7 @@ public class Account implements AccountService {
         transactions.add(new Transaction(date, -amount, balance));
     }
 
-    // Implementation dyal l'interface, walakin ma ghadich nst3mlouha f Main.java l'anna ma 3andnach date
+  
     @Override
     public void deposit(int amount) {
         throw new UnsupportedOperationException("L'interface ma katst3melch f had l'test, khdem b'l'méthode li fiha date.");
